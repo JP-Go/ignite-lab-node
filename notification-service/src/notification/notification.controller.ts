@@ -4,7 +4,7 @@ import { randomUUID } from 'node:crypto';
 import { CreateNotificationBody } from './create-notification-body';
 
 @Controller('notifications')
-export class AppController {
+export class NotificationController {
   constructor(private readonly prisma: PrismaService) {}
 
   @Get()
