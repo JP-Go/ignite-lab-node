@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { NotificationController } from './notification.controller';
-import { PrismaService } from './prisma.service';
+import { NotificationController } from './infra/notification.controller';
+import { PrismaService } from './infra/prisma.service';
 
 @Module({
   imports: [],
