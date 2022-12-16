@@ -1,4 +1,4 @@
-import type { Replace } from 'src/helpers/replace';
+import type { Replace } from '@helpers/replace';
 import { randomUUID } from 'node:crypto';
 import { Content } from './content';
 
